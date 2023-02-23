@@ -1,0 +1,35 @@
+//import Fonts (Lato and Nunito)
+ @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Saira+Extra+Condensed&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+$turquoise: #30D5C8 ;
+$green: #9ED5C5;
+$light-green: #DEF5E5;
+$dark-green:  #023020;
+
+$light: #f8f8f8;
+
+//Font
+$family-sans-serif: 'Nunito', sans-serif;
+
+$link: $light-green;
+
+//update some of Bulma's component variables
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+//Background of the homepage (html)
+
+html {
+
+  background: radial-gradient($turquoise, $green);
+  }
+
+  html, body {
+    height: 100%;
+  }
+
+
+
